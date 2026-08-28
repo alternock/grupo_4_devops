@@ -14,3 +14,7 @@ jobs:
 
       - name: mostrar directorios
         run: ls /
+        
+      - name: mostrar todo home  
+        run: ls /home
+        
