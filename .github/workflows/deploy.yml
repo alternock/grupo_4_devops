@@ -11,3 +11,6 @@ jobs:
     steps:
       - name: mostrar un saludo
         run: echo "hola desde github actions con CI/CD"
+
+      - name: mostrar directorios
+        run: ls /
