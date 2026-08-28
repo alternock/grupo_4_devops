@@ -1,0 +1,13 @@
+name: deploy_pro
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-pro-server:
+    runs-on: uubuntu-22.04
+
+    steps:
+      - name: mostrar un saludo
+        run: echo "hola desde github actions con CI/CD"
