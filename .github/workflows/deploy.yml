@@ -19,4 +19,5 @@ jobs:
         run: ls /home
 
       - name: dentro de /home/linuxbrew
-        run: cd /home/linuxbrew
+        run: cd /home/linuxbrew && mkdir test_dir && ls 
+    
