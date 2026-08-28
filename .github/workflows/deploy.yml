@@ -17,4 +17,6 @@ jobs:
         
       - name: mostrar todo home  
         run: ls /home
-        
+
+      - name: dentro de /home/linuxbrew
+        run: cd /home/linuxbrew
