@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v7 
 
       - name: mostrar repo
-        run: ls  /home/runner/work/grupo_4_devops/
+        run: ls  /home/runner/work/grupo_4_devops/grupo_4_devops
         
 
     
