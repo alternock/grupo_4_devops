@@ -20,4 +20,12 @@ jobs:
 
       - name: dentro de /home/linuxbrew
         run: cd /home/linuxbrew && mkdir test_dir && ls 
+
+      - name: clonar repositorio
+        uses: actions/checkout@v7 
+
+      - name: mostrar repo
+        run: ls /home/linuxbrew/test_dir
+        
+
     
