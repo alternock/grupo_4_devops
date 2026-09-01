@@ -1,0 +1,12 @@
+name: deploy-github-pages
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  deploy-gp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "mensaje"
+        run: echo "hola desde gp"
